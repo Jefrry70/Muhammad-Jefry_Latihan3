@@ -11,7 +11,7 @@ public class BangunDatar {
     double jariJari;
     double hasil;
 
-    // Constructor
+    // Constructor untuk menginisialisasi semua atribut ke nol
     public BangunDatar() {
         alas = 0;
         tinggi = 0;
@@ -19,15 +19,18 @@ public class BangunDatar {
         hasil = 0;
     }
 
+    // Method accessor untuk mengembalikan nilai hasil
+    public double getHasil() {
+        return hasil;
+    }
+
     // Method mutator untuk menghitung luas segitiga
     public void hitungLuasSegitiga() {
         hasil = 0.5 * alas * tinggi;
-        System.out.println("Luas Segitiga = " + hasil);
     }
 
     // Method mutator untuk menghitung luas lingkaran
     public void hitungLuasLingkaran() {
         hasil = 3.14 * jariJari * jariJari;
-        System.out.println("Luas Lingkaran = " + hasil);
     }
 }
