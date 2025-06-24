@@ -3,22 +3,21 @@
  * NPM   : 2310010647
  * Kelas : 4A REG BJM
  */
+
 public class BangunDatar {
-    
+    // Atribut bertipe bilangan desimal
+    double alas;
+    double tinggi;
+    double jariJari;
+    double hasil;
+
     // Constructor tanpa parameter
     public BangunDatar() {
-        // Inisialisasi jika perlu
+        alas = 0;
+        tinggi = 0;
+        jariJari = 0;
+        hasil = 0;
     }
-    
-    // Contoh method menghitung luas (harus di-override di subclass)
-    public double hitungLuas() {
-        System.out.println("Luas belum diimplementasikan untuk BangunDatar umum.");
-        return 0;
-    }
-    
-    // Contoh method menghitung keliling (harus di-override di subclass)
-    public double hitungKeliling() {
-        System.out.println("Keliling belum diimplementasikan untuk BangunDatar umum.");
-        return 0;
-    }
+
+    // Anda bisa menambahkan method perhitungan di sini jika diperlukan
 }
