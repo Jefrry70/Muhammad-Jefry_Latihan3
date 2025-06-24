@@ -1,7 +1,7 @@
 /**
- * Nama  : Muhammad Fadilah
- * NPM   : 2312345678
- * Kelas : Informatika 2023
+ * Nama  : Muhammad Jefry
+ * NPM   : 2310010647
+ * Kelas : 4A REG BJM
  */
 
 public class BangunDatar {
